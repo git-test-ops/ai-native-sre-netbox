@@ -39,10 +39,12 @@ pip install openai requests python-dotenv
 
 ### 2. 配置环境变量
 在项目根目录创建 .env 文件，并填入以下配置：
+```env
 DEEPSEEK_API_KEY=你的DeepSeek密钥
 NETBOX_URL=http://你的虚拟机IP:8000
 NETBOX_TOKEN=你的NetBox_Token
 FEISHU_WEBHOOK_URL=你的飞书机器人Webhook地址
+```
 
 ### 3. 运行测试
 启动 Agent 程序：
